@@ -1,0 +1,21 @@
+{
+  "access_date": "2026-11-05",
+  "publisher": "Miri Choi",
+  "version": 1,
+  "license": "Database: Open Database, Contents: Database Contents",
+  "page": "https://www.kaggle.com/datasets/mirichoi0218/insurance",
+  "api": "https://www.kaggle.com/api/v1/datasets/view/mirichoi0218/insurance",
+  "public_csv": "https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv",
+  "public_sha256": "505c1cbc2e63d0363bac59501563df2530aadf4cdb9cfee226f4ef32f5468281",
+  "same_columns": true,
+  "same_shape": true,
+  "same_values_and_order": true,
+  "unconfirmed": [
+    "currency",
+    "observation_period",
+    "collection_year",
+    "sampling_design"
+  ],
+  "observation_unit": "individual primary beneficiary record",
+  "charge_definition": "Individual medical costs billed by health insurance"
+}

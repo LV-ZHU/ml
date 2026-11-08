@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "report_sha256": "5058d4cb2b4f4ed216df2fd2d602b6f17faa35cdabaf5e137d4a6e7d4f928998",
+  "pages": 12,
+  "tables": 9,
+  "figure_groups": 6,
+  "all_pages_visually_reviewed": true,
+  "visual_checks": [
+    "no clipping",
+    "no overlap",
+    "no broken tables",
+    "all axes readable",
+    "no orphan citations",
+    "source sections retained"
+  ],
+  "layout_pdf_sha256": "f781e314950a0a1c8abc876c95e62c7d7a797ff82fcc5aad3529236df70aeb3b",
+  "page_png_sha256": {
+    "1": "63cb57501b5ca2f620d508def583e5a7949b8c0ec31a5cfbc4febe4433d84503",
+    "2": "bb72e03324a50b6b3e88664bfed12d1ae211f9cc7c350a137377f90048193b32",
+    "3": "6de794f3478061db1ad6f72405ee2fd9563573af219fa289787ff7ef4e86acb9",
+    "4": "5654ec17146b28687a4eb3e8537f9177c1945acb23767a8a40ebbede7731be72",
+    "5": "9e908b01a0b995aa247ccbc766d1c49e2477cfff11aef2971ee859b36de5116f",
+    "6": "10a968fdf332e047c478298cd838d011bf6e662d4406499c18ed1a7913640677",
+    "7": "e5f3bc9fd565f7658d3a369901bbaf6a12c88ef5d27af94a6bcfdab0afaab789",
+    "8": "63d674959d201e16cb8ca6a6253fe67b105777adb875f7bfb6f85a6bffce6435",
+    "9": "1cf2cf5c6b5869b26ce250b4929c094a41ff074f3e26f86e774f71e506e70427",
+    "10": "e52c97a309c1b11835130afeebcdf00473b580e8271c5fe2e9439cbdfbb424bf",
+    "11": "325b944c0b9bef630aaa04475257a09278d00b7b7e7e8feacb66c0bf0eed2849",
+    "12": "e4779b5c5c3b066e176e10910c43978f76070510fb2771ca47f12884c307f08a"
+  },
+  "original_template_unchanged": true,
+  "original_style_definitions_preserved": true,
+  "report_numbers_from_saved_results": true,
+  "independent_metric_checks": true,
+  "saved_model_inference_check": true,
+  "pending": [
+    "姓名",
+    "学号",
+    "实际任务与贡献"
+  ],
+  "source_pending": [
+    "币种",
+    "费用统计周期",
+    "收集年份",
+    "抽样方式"
+  ]
+}

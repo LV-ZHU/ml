@@ -1,0 +1,5 @@
+{
+  "time": "2026-11-05T17:44:09.610376+08:00",
+  "stage": "baseline",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\tongji\\26271\\机器学习\\课程项目1\\医疗费用预测\\src\\run.py\", line 305, in main\n    result = run_stage(stage, root, out, cfg, run_id)\n  File \"D:\\tongji\\26271\\机器学习\\课程项目1\\医疗费用预测\\src\\run.py\", line 200, in run_stage\n    run_candidates(dev, cfg, out, exp, [spec], run_id)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\tongji\\26271\\机器学习\\课程项目1\\医疗费用预测\\src\\run.py\", line 116, in run_candidates\n    raise RuntimeError(f\"All candidates failed: {exp}; see failure files\")\nRuntimeError: All candidates failed: M3; see failure files\n"
+}

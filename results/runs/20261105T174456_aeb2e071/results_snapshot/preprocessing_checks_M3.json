@@ -1,0 +1,122 @@
+[
+  {
+    "experiment_id": "M3",
+    "candidate_id": "M3_00",
+    "fold": 0,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "M3",
+    "candidate_id": "M3_00",
+    "fold": 1,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "M3",
+    "candidate_id": "M3_00",
+    "fold": 2,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "M3",
+    "candidate_id": "M3_00",
+    "fold": 3,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "M3",
+    "candidate_id": "M3_00",
+    "fold": 4,
+    "n_samples_seen": 856,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  }
+]

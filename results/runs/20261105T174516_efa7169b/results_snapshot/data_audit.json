@@ -1,0 +1,84 @@
+{
+  "raw_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+  "source_path": "C:/Users/DELL/AppData/Local/Temp/insurance.csv",
+  "local_path": "data/raw/insurance.csv",
+  "raw_rows": 1338,
+  "clean_rows": 1337,
+  "columns": {
+    "age": {
+      "dtype": "int64",
+      "missing": 0,
+      "infinite": 0,
+      "minimum": 18.0,
+      "median": 39.0,
+      "maximum": 64.0
+    },
+    "sex": {
+      "dtype": "str",
+      "missing": 0,
+      "categories": [
+        "female",
+        "male"
+      ]
+    },
+    "bmi": {
+      "dtype": "float64",
+      "missing": 0,
+      "infinite": 0,
+      "minimum": 15.96,
+      "median": 30.4,
+      "maximum": 53.13
+    },
+    "children": {
+      "dtype": "int64",
+      "missing": 0,
+      "infinite": 0,
+      "minimum": 0.0,
+      "median": 1.0,
+      "maximum": 5.0
+    },
+    "smoker": {
+      "dtype": "str",
+      "missing": 0,
+      "categories": [
+        "no",
+        "yes"
+      ]
+    },
+    "region": {
+      "dtype": "str",
+      "missing": 0,
+      "categories": [
+        "northeast",
+        "northwest",
+        "southeast",
+        "southwest"
+      ]
+    },
+    "charges": {
+      "dtype": "float64",
+      "missing": 0,
+      "infinite": 0,
+      "minimum": 1121.8739,
+      "median": 9382.033,
+      "maximum": 63770.42801
+    }
+  },
+  "duplicates_removed": [
+    {
+      "removed_row_id": 581,
+      "kept_row_id": 195
+    }
+  ],
+  "development_rows": 1069,
+  "test_rows": 268,
+  "fold_sizes": {
+    "0": 214,
+    "1": 214,
+    "2": 214,
+    "3": 214,
+    "4": 213
+  },
+  "input_missing_policy": "stop_and_update_audit_before_imputation",
+  "test_history": "Whole-table quality statistics previously inspected; detailed exploration uses development data"
+}

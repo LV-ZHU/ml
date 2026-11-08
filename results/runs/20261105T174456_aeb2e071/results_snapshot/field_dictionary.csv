@@ -1,0 +1,8 @@
+field,name,unit,definition
+age,年龄,岁,主要受益人的年龄
+sex,性别,类别,female/male
+bmi,身体质量指数 BMI,kg/m²,体重除以身高的平方
+children,受抚养人数,人,医保覆盖的子女或受抚养人数
+smoker,吸烟状态,类别,yes/no
+region,地区,类别,美国四个居住地区
+charges,医疗费用,原始费用单位,向健康保险计费的个人医疗费用

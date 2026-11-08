@@ -1,0 +1,5 @@
+experiment_id,candidate_id,params_json,cv_mean_rmse,status,error_message,rank
+M0,M0_00,"{""kind"": ""mean"", ""params"": {""strategy"": ""mean""}, ""scheme"": ""F0""}",12098.177607172154,ok,,1.0
+M1,M1_00,"{""kind"": ""linear"", ""params"": {""fit_intercept"": true}, ""scheme"": ""F0""}",6297.1182023907695,ok,,1.0
+M2,M2_00,"{""kind"": ""ridge"", ""params"": {""alpha"": 1.0, ""fit_intercept"": true, ""solver"": ""svd""}, ""scheme"": ""F0""}",6297.13960687498,ok,,1.0
+M3,M3_00,"{""kind"": ""forest"", ""params"": {""bootstrap"": true, ""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 1, ""n_estimators"": 200, ""n_jobs"": 4, ""random_state"": 42}, ""scheme"": ""F0""}",5092.966986560683,ok,,1.0

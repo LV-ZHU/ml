@@ -1,0 +1,103 @@
+{
+  "stage": "prepare",
+  "status": "complete",
+  "started_at": "2026-11-05T17:43:16.803606+08:00",
+  "finished_at": "2026-11-05T17:43:17.007485+08:00",
+  "run_id": "20261105T174316_39091424",
+  "result": {
+    "raw_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+    "source_path": "C:/Users/DELL/AppData/Local/Temp/insurance.csv",
+    "local_path": "data/raw/insurance.csv",
+    "raw_rows": 1338,
+    "clean_rows": 1337,
+    "columns": {
+      "age": {
+        "dtype": "int64",
+        "missing": 0,
+        "infinite": 0,
+        "minimum": 18.0,
+        "median": 39.0,
+        "maximum": 64.0
+      },
+      "sex": {
+        "dtype": "str",
+        "missing": 0,
+        "categories": [
+          "female",
+          "male"
+        ]
+      },
+      "bmi": {
+        "dtype": "float64",
+        "missing": 0,
+        "infinite": 0,
+        "minimum": 15.96,
+        "median": 30.4,
+        "maximum": 53.13
+      },
+      "children": {
+        "dtype": "int64",
+        "missing": 0,
+        "infinite": 0,
+        "minimum": 0.0,
+        "median": 1.0,
+        "maximum": 5.0
+      },
+      "smoker": {
+        "dtype": "str",
+        "missing": 0,
+        "categories": [
+          "no",
+          "yes"
+        ]
+      },
+      "region": {
+        "dtype": "str",
+        "missing": 0,
+        "categories": [
+          "northeast",
+          "northwest",
+          "southeast",
+          "southwest"
+        ]
+      },
+      "charges": {
+        "dtype": "float64",
+        "missing": 0,
+        "infinite": 0,
+        "minimum": 1121.8739,
+        "median": 9382.033,
+        "maximum": 63770.42801
+      }
+    },
+    "duplicates_removed": [
+      {
+        "removed_row_id": 581,
+        "kept_row_id": 195
+      }
+    ],
+    "development_rows": 1069,
+    "test_rows": 268,
+    "fold_sizes": {
+      "0": 214,
+      "1": 214,
+      "2": 214,
+      "3": 214,
+      "4": 213
+    },
+    "input_missing_policy": "stop_and_update_audit_before_imputation",
+    "test_history": "Whole-table quality statistics previously inspected; detailed exploration uses development data"
+  },
+  "data_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+  "code_manifest": {
+    "src/__init__.py": "d6ca61dabbe50fad268f1f46fa40a09f8ede3688f050f6a0527e61de990810f5",
+    "src/evaluate.py": "7143ab25276c88c212545206dd97e073776bfe7e89cdfb1f127d205bc857d656",
+    "src/features.py": "7abee89c5e2882252f0243125b459b252160bf02702cdc03972e178dd5d121a6",
+    "src/models.py": "2a295271172f06cb8eeb71634e49182b35ec218fcb1ce62ecb68bf61332cfcf1",
+    "src/plot.py": "91fdc78e9e08f84a66a51b466bdcd8db987f885486148839d062f0127e5ce94c",
+    "src/prepare.py": "cf188275f89248a1ae5bff622e704e86dd3286da84531da727ecf762efead6d6",
+    "src/run.py": "a9de752601fbc4847a5cc8cafb1b1d7401a2e95b11a741b53128aa2238acff7e"
+  },
+  "test_metrics_viewed": false,
+  "next_stage": "baseline"
+}

@@ -1,0 +1,92 @@
+2026-11-05 17:43:16,803 INFO Starting stage prepare
+2026-11-05 17:43:28,257 INFO Starting stage baseline
+2026-11-05 17:43:28,306 ERROR Run failed; evidence saved
+Traceback (most recent call last):
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\src\run.py", line 305, in main
+    result = run_stage(stage, root, out, cfg, run_id)
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\src\run.py", line 193, in run_stage
+    all_data = load_partitions(root, out, cfg)
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\src\prepare.py", line 89, in load_partitions
+    return raw.loc[s.row_id].merge(s, on="row_id", validate="one_to_one").sort_values(["partition", "partition_order"])
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\.venv\Lib\site-packages\pandas\core\frame.py", line 16192, in merge
+    return merge(
+        self,
+    ...<10 lines>...
+        validate=validate,
+    )
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 391, in merge
+    op = _MergeOperation(
+        left_df,
+    ...<10 lines>...
+        validate=validate,
+    )
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 1014, in __init__
+    ) = self._get_merge_keys()
+        ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\.venv\Lib\site-packages\pandas\core\reshape\merge.py", line 1646, in _get_merge_keys
+    left_keys.append(left._get_label_or_level_values(lk))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\.venv\Lib\site-packages\pandas\core\generic.py", line 1701, in _get_label_or_level_values
+    self._check_label_or_level_ambiguity(key, axis=axis)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\.venv\Lib\site-packages\pandas\core\generic.py", line 1661, in _check_label_or_level_ambiguity
+    raise ValueError(msg)
+ValueError: 'row_id' is both an index level and a column label, which is ambiguous.
+2026-11-05 17:44:08,601 INFO Starting stage baseline
+2026-11-05 17:44:08,711 INFO M0 M0_00 CV RMSE 12098.177607
+2026-11-05 17:44:08,824 INFO M1 M1_00 CV RMSE 6297.118202
+2026-11-05 17:44:09,110 INFO M2 M2_00 CV RMSE 6297.139607
+2026-11-05 17:44:09,611 ERROR Run failed; evidence saved
+Traceback (most recent call last):
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\src\run.py", line 305, in main
+    result = run_stage(stage, root, out, cfg, run_id)
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\src\run.py", line 200, in run_stage
+    run_candidates(dev, cfg, out, exp, [spec], run_id)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tongji\26271\机器学习\课程项目1\医疗费用预测\src\run.py", line 116, in run_candidates
+    raise RuntimeError(f"All candidates failed: {exp}; see failure files")
+RuntimeError: All candidates failed: M3; see failure files
+2026-11-05 17:44:56,304 INFO Starting stage baseline
+2026-11-05 17:44:56,438 INFO M0 M0_00 CV RMSE 12098.177607
+2026-11-05 17:44:56,719 INFO M1 M1_00 CV RMSE 6297.118202
+2026-11-05 17:44:56,920 INFO M2 M2_00 CV RMSE 6297.139607
+2026-11-05 17:44:58,020 INFO M3 M3_00 CV RMSE 5092.966987
+2026-11-05 17:45:00,584 INFO Starting stage tune
+2026-11-05 17:45:00,674 INFO M2T M2T_00 CV RMSE 6297.114465
+2026-11-05 17:45:00,739 INFO M2T M2T_01 CV RMSE 6297.084472
+2026-11-05 17:45:00,812 INFO M2T M2T_02 CV RMSE 6297.139607
+2026-11-05 17:45:00,884 INFO M2T M2T_03 CV RMSE 6328.311989
+2026-11-05 17:45:00,950 INFO M2T M2T_04 CV RMSE 7485.929156
+2026-11-05 17:45:01,020 INFO M2T M2T_05 CV RMSE 10691.244439
+2026-11-05 17:45:02,091 INFO M3T M3T_00 CV RMSE 4836.639957
+2026-11-05 17:45:03,197 INFO M3T M3T_01 CV RMSE 4835.214151
+2026-11-05 17:45:04,233 INFO M3T M3T_02 CV RMSE 4835.294690
+2026-11-05 17:45:05,307 INFO M3T M3T_03 CV RMSE 4808.411449
+2026-11-05 17:45:06,331 INFO M3T M3T_04 CV RMSE 4769.201657
+2026-11-05 17:45:07,550 INFO M3T M3T_05 CV RMSE 4761.030038
+2026-11-05 17:45:08,630 INFO M3T M3T_06 CV RMSE 5050.168475
+2026-11-05 17:45:09,750 INFO M3T M3T_07 CV RMSE 4889.284570
+2026-11-05 17:45:10,948 INFO M3T M3T_08 CV RMSE 4828.764262
+2026-11-05 17:45:12,072 INFO M3T M3T_09 CV RMSE 5092.966987
+2026-11-05 17:45:13,095 INFO M3T M3T_10 CV RMSE 4890.022582
+2026-11-05 17:45:14,169 INFO M3T M3T_11 CV RMSE 4829.859878
+2026-11-05 17:45:16,483 INFO Starting stage features
+2026-11-05 17:45:16,605 INFO F1 F1_00 CV RMSE 6252.217187
+2026-11-05 17:45:16,689 INFO F1 F1_01 CV RMSE 6252.110688
+2026-11-05 17:45:16,777 INFO F1 F1_02 CV RMSE 6251.913635
+2026-11-05 17:45:16,851 INFO F1 F1_03 CV RMSE 6291.316658
+2026-11-05 17:45:16,922 INFO F1 F1_04 CV RMSE 7463.357392
+2026-11-05 17:45:16,990 INFO F1 F1_05 CV RMSE 10583.438608
+2026-11-05 17:45:17,265 INFO F2 F2_00 CV RMSE 4993.637509
+2026-11-05 17:45:17,357 INFO F2 F2_01 CV RMSE 4993.273238
+2026-11-05 17:45:17,443 INFO F2 F2_02 CV RMSE 5004.102732
+2026-11-05 17:45:17,532 INFO F2 F2_03 CV RMSE 5183.607815
+2026-11-05 17:45:17,654 INFO F2 F2_04 CV RMSE 5590.973160
+2026-11-05 17:45:17,764 INFO F2 F2_05 CV RMSE 6965.795878
+2026-11-05 17:45:20,327 INFO Starting stage diagnose
+2026-11-05 17:46:25,764 INFO Starting stage freeze
+2026-11-05 17:46:28,043 INFO Starting stage test
+2026-11-05 17:46:30,850 INFO Starting stage plots
+2026-11-05 17:46:33,890 WARNING Could not save font_manager cache [Errno 13] Permission denied: 'C:\\Users\\DELL\\.matplotlib\\fontlist-v3.11.0.json.matplotlib-lock'
+2026-11-05 17:46:33,890 INFO generated new fontManager

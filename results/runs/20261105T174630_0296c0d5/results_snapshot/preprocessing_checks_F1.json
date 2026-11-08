@@ -1,0 +1,842 @@
+[
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_00",
+    "fold": 0,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_00",
+    "fold": 1,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_00",
+    "fold": 2,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_00",
+    "fold": 3,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_00",
+    "fold": 4,
+    "n_samples_seen": 856,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_01",
+    "fold": 0,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_01",
+    "fold": 1,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_01",
+    "fold": 2,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_01",
+    "fold": 3,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_01",
+    "fold": 4,
+    "n_samples_seen": 856,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_02",
+    "fold": 0,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_02",
+    "fold": 1,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_02",
+    "fold": 2,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_02",
+    "fold": 3,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_02",
+    "fold": 4,
+    "n_samples_seen": 856,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_03",
+    "fold": 0,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_03",
+    "fold": 1,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_03",
+    "fold": 2,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_03",
+    "fold": 3,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_03",
+    "fold": 4,
+    "n_samples_seen": 856,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_04",
+    "fold": 0,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_04",
+    "fold": 1,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_04",
+    "fold": 2,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_04",
+    "fold": 3,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_04",
+    "fold": 4,
+    "n_samples_seen": 856,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_05",
+    "fold": 0,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_05",
+    "fold": 1,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_05",
+    "fold": 2,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_05",
+    "fold": 3,
+    "n_samples_seen": 855,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  },
+  {
+    "experiment_id": "F1",
+    "candidate_id": "F1_05",
+    "fold": 4,
+    "n_samples_seen": 856,
+    "input_columns": [
+      "age",
+      "bmi",
+      "children",
+      "sex",
+      "smoker",
+      "region",
+      "age_squared",
+      "bmi_squared"
+    ],
+    "output_features": [
+      "num__age",
+      "num__bmi",
+      "num__children",
+      "num__age_squared",
+      "num__bmi_squared",
+      "cat__sex_male",
+      "cat__smoker_yes",
+      "cat__region_northwest",
+      "cat__region_southeast",
+      "cat__region_southwest"
+    ]
+  }
+]

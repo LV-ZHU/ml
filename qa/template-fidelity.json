@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "preserved_parts": {
+    "_rels/.rels": true,
+    "word/footnotes.xml": true,
+    "word/endnotes.xml": true,
+    "word/theme/theme1.xml": true,
+    "word/settings.xml": true,
+    "word/numbering.xml": true,
+    "word/webSettings.xml": true,
+    "word/fontTable.xml": true,
+    "docProps/core.xml": true,
+    "docProps/app.xml": true
+  },
+  "section_geometry_identical": true
+}

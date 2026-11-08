@@ -1,0 +1,58 @@
+{
+  "[Content_Types].xml": {
+    "size": 1709,
+    "sha256": "5dc3c6cd519447ad530ae867d097c556e33cd8cb3e1b2439a804a5584673fc7c"
+  },
+  "_rels/.rels": {
+    "size": 590,
+    "sha256": "e19238d7a71fa7a2490776252686f70e2de6238c87cd509b5e3a3cc07c2ea4df"
+  },
+  "word/document.xml": {
+    "size": 48923,
+    "sha256": "99df684837a6b332211b36403a0cfa5b988ce5e38ef6b11d986f5a7bb3083c70"
+  },
+  "word/_rels/document.xml.rels": {
+    "size": 1214,
+    "sha256": "4984fd80e83f7eeb9c75574e31c0c298e29ede9c9d3dd94b06f2d9f8ba657054"
+  },
+  "word/footnotes.xml": {
+    "size": 3056,
+    "sha256": "4051653d5202d090502acec2f4c66f13507909c74e76ebd8407e819db7fe72c9"
+  },
+  "word/endnotes.xml": {
+    "size": 3050,
+    "sha256": "6f9a7895711ff0ac02ad8a5a6cbe858997f4cb601bbe71600c2b2f1a4a1dcf88"
+  },
+  "word/theme/theme1.xml": {
+    "size": 8398,
+    "sha256": "7017cbe8b7512b56e04e6b3e3579aa862a35b6f9f31e0bf48328f6e5c074ebbd"
+  },
+  "word/settings.xml": {
+    "size": 10948,
+    "sha256": "af8f00eb4a4f80e4f571053cc0176338558be12c63dac417261fe4eacfca7e5d"
+  },
+  "word/numbering.xml": {
+    "size": 19059,
+    "sha256": "509eed768015ee1b4238c5f8851169334b1afdda540d91a6f47442488b5ee35e"
+  },
+  "word/styles.xml": {
+    "size": 34510,
+    "sha256": "6ce051c91fc41fc4bc93b062fb17ff0d9822ba25a142a0fe18fde28bc5529201"
+  },
+  "word/webSettings.xml": {
+    "size": 3098,
+    "sha256": "e3f816c1027e80c0fe9bc48b4a02b79571d1da113c1d07a17a32864402091518"
+  },
+  "word/fontTable.xml": {
+    "size": 2643,
+    "sha256": "0e42e7eebd6adad50903b1462d84a8114934c76db5609e70afbe356f531c4ac5"
+  },
+  "docProps/core.xml": {
+    "size": 763,
+    "sha256": "619d5f8523a96bc7dbf0a7e8efa6b33062c1eab379f6ad308fff92a1831c2418"
+  },
+  "docProps/app.xml": {
+    "size": 718,
+    "sha256": "46b9f63314352ed45b5eeebaf1a90da5094011f2ae3b2d13adb7c33df72181fa"
+  }
+}

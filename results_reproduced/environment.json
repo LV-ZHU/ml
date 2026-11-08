@@ -1,0 +1,25 @@
+{
+  "python": "3.13.12",
+  "executable": "D:\\tongji\\26271\\机器学习\\课程项目1\\医疗费用预测\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "logical_cpus": 16,
+  "memory_bytes": 16849256448,
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0",
+    "psutil": "7.2.2"
+  },
+  "threads": {
+    "search_outer_jobs": 1,
+    "forest_n_jobs": 4
+  },
+  "started_at": "2026-11-05T17:47:00.456457+08:00",
+  "run_id": "20261105T174700_73a2f173",
+  "status": "complete",
+  "finished_at": "2026-11-05T17:47:01.104393+08:00"
+}

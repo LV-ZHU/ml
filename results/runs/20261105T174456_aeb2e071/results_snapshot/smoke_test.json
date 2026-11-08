@@ -1,0 +1,44 @@
+{
+  "metrics": [
+    {
+      "run_id": "20261105T174456_aeb2e071",
+      "experiment_id": "M1",
+      "candidate_id": "smoke",
+      "fold": 0,
+      "n_train": 855,
+      "n_valid": 214,
+      "MAE": 3952.744389525889,
+      "RMSE": 5629.737763486305,
+      "R2": 0.697985595004954,
+      "train_RMSE": 6423.360162948918,
+      "fit_seconds": 0.03224099986255169,
+      "params_json": "{\"kind\": \"linear\", \"params\": {\"fit_intercept\": true}, \"scheme\": \"F0\"}"
+    }
+  ],
+  "preprocessing": [
+    {
+      "experiment_id": "M1",
+      "candidate_id": "smoke",
+      "fold": 0,
+      "n_samples_seen": 855,
+      "input_columns": [
+        "age",
+        "bmi",
+        "children",
+        "sex",
+        "smoker",
+        "region"
+      ],
+      "output_features": [
+        "num__age",
+        "num__bmi",
+        "num__children",
+        "cat__sex_male",
+        "cat__smoker_yes",
+        "cat__region_northwest",
+        "cat__region_southeast",
+        "cat__region_southwest"
+      ]
+    }
+  ]
+}

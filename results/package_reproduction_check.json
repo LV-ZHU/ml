@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "max_absolute_prediction_difference": 1.4551915228366852e-11,
+  "rtol": 1e-09,
+  "atol": 1e-06
+}

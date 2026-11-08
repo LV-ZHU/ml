@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": {
+    "data_and_splits": "passed",
+    "hand_calculated_metrics": {
+      "MAE": 0.6666666666666666,
+      "RMSE": 0.816496580927726,
+      "R2": 0.0
+    },
+    "test_metrics_from_predictions": "passed for all 8 models",
+    "cv_candidates_and_thresholds": "passed: 34 candidates, 170 folds, 1069 rows each",
+    "fold_preprocessing_and_features": "passed",
+    "group_metrics": "passed",
+    "frozen_reproduction": {
+      "passed": true,
+      "max_absolute_prediction_difference": 2.1827872842550278e-11,
+      "rtol": 1e-09,
+      "atol": 1e-06
+    }
+  }
+}

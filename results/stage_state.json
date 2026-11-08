@@ -1,0 +1,400 @@
+{
+  "prepare": {
+    "stage": "prepare",
+    "status": "complete",
+    "started_at": "2026-11-05T17:43:16.803606+08:00",
+    "finished_at": "2026-11-05T17:43:17.007485+08:00",
+    "run_id": "20261105T174316_39091424",
+    "result": {
+      "raw_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+      "source_path": "C:/Users/DELL/AppData/Local/Temp/insurance.csv",
+      "local_path": "data/raw/insurance.csv",
+      "raw_rows": 1338,
+      "clean_rows": 1337,
+      "columns": {
+        "age": {
+          "dtype": "int64",
+          "missing": 0,
+          "infinite": 0,
+          "minimum": 18.0,
+          "median": 39.0,
+          "maximum": 64.0
+        },
+        "sex": {
+          "dtype": "str",
+          "missing": 0,
+          "categories": [
+            "female",
+            "male"
+          ]
+        },
+        "bmi": {
+          "dtype": "float64",
+          "missing": 0,
+          "infinite": 0,
+          "minimum": 15.96,
+          "median": 30.4,
+          "maximum": 53.13
+        },
+        "children": {
+          "dtype": "int64",
+          "missing": 0,
+          "infinite": 0,
+          "minimum": 0.0,
+          "median": 1.0,
+          "maximum": 5.0
+        },
+        "smoker": {
+          "dtype": "str",
+          "missing": 0,
+          "categories": [
+            "no",
+            "yes"
+          ]
+        },
+        "region": {
+          "dtype": "str",
+          "missing": 0,
+          "categories": [
+            "northeast",
+            "northwest",
+            "southeast",
+            "southwest"
+          ]
+        },
+        "charges": {
+          "dtype": "float64",
+          "missing": 0,
+          "infinite": 0,
+          "minimum": 1121.8739,
+          "median": 9382.033,
+          "maximum": 63770.42801
+        }
+      },
+      "duplicates_removed": [
+        {
+          "removed_row_id": 581,
+          "kept_row_id": 195
+        }
+      ],
+      "development_rows": 1069,
+      "test_rows": 268,
+      "fold_sizes": {
+        "0": 214,
+        "1": 214,
+        "2": 214,
+        "3": 214,
+        "4": 213
+      },
+      "input_missing_policy": "stop_and_update_audit_before_imputation",
+      "test_history": "Whole-table quality statistics previously inspected; detailed exploration uses development data"
+    },
+    "data_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+    "code_manifest": {
+      "src/__init__.py": "d6ca61dabbe50fad268f1f46fa40a09f8ede3688f050f6a0527e61de990810f5",
+      "src/evaluate.py": "7143ab25276c88c212545206dd97e073776bfe7e89cdfb1f127d205bc857d656",
+      "src/features.py": "7abee89c5e2882252f0243125b459b252160bf02702cdc03972e178dd5d121a6",
+      "src/models.py": "2a295271172f06cb8eeb71634e49182b35ec218fcb1ce62ecb68bf61332cfcf1",
+      "src/plot.py": "91fdc78e9e08f84a66a51b466bdcd8db987f885486148839d062f0127e5ce94c",
+      "src/prepare.py": "cf188275f89248a1ae5bff622e704e86dd3286da84531da727ecf762efead6d6",
+      "src/run.py": "a9de752601fbc4847a5cc8cafb1b1d7401a2e95b11a741b53128aa2238acff7e"
+    },
+    "test_metrics_viewed": false,
+    "next_stage": "baseline"
+  },
+  "baseline": {
+    "stage": "baseline",
+    "status": "complete",
+    "started_at": "2026-11-05T17:44:56.304269+08:00",
+    "finished_at": "2026-11-05T17:44:58.201865+08:00",
+    "run_id": "20261105T174456_aeb2e071",
+    "result": {
+      "completed": [
+        "M0",
+        "M1",
+        "M2",
+        "M3"
+      ]
+    },
+    "data_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+    "code_manifest": {
+      "src/__init__.py": "d6ca61dabbe50fad268f1f46fa40a09f8ede3688f050f6a0527e61de990810f5",
+      "src/evaluate.py": "7143ab25276c88c212545206dd97e073776bfe7e89cdfb1f127d205bc857d656",
+      "src/features.py": "7abee89c5e2882252f0243125b459b252160bf02702cdc03972e178dd5d121a6",
+      "src/models.py": "2a295271172f06cb8eeb71634e49182b35ec218fcb1ce62ecb68bf61332cfcf1",
+      "src/plot.py": "91fdc78e9e08f84a66a51b466bdcd8db987f885486148839d062f0127e5ce94c",
+      "src/prepare.py": "b62bc9f5b6749511cee0d252bc6b630dd845fd077ca4d84fb11f42033fd08cd4",
+      "src/run.py": "1498129813277430e6def06ec8933144a42d549760ef9f979b90f323ed79661a"
+    },
+    "test_metrics_viewed": false,
+    "next_stage": "tune"
+  },
+  "tune": {
+    "stage": "tune",
+    "status": "complete",
+    "started_at": "2026-11-05T17:45:00.584265+08:00",
+    "finished_at": "2026-11-05T17:45:14.384325+08:00",
+    "run_id": "20261105T174500_ac7297ae",
+    "result": {
+      "M2T": {
+        "experiment_id": "M2T",
+        "candidate_id": "M2T_01",
+        "params_json": "{\"kind\": \"ridge\", \"params\": {\"alpha\": 0.1, \"fit_intercept\": true, \"solver\": \"svd\"}, \"scheme\": \"F0\"}",
+        "mean_fit_seconds": 0.00440005986019969,
+        "train_mean_rmse": 6257.3016445191415,
+        "cv_mean_mae": 4393.815351479053,
+        "cv_std_mae": 399.4452148912624,
+        "cv_mean_rmse": 6297.08447247748,
+        "cv_std_rmse": 703.3776269385676,
+        "cv_mean_r2": 0.7224577830790546,
+        "cv_std_r2": 0.04023826816900355,
+        "selected": true
+      },
+      "M3T": {
+        "experiment_id": "M3T",
+        "candidate_id": "M3T_05",
+        "params_json": "{\"kind\": \"forest\", \"params\": {\"bootstrap\": true, \"max_depth\": 5, \"max_features\": 1.0, \"min_samples_leaf\": 5, \"n_estimators\": 200, \"n_jobs\": 4, \"random_state\": 42}, \"scheme\": \"F0\"}",
+        "mean_fit_seconds": 0.14812617981806397,
+        "train_mean_rmse": 4269.970945103952,
+        "cv_mean_mae": 2752.9327534742906,
+        "cv_std_mae": 334.5926352159202,
+        "cv_mean_rmse": 4761.030037919429,
+        "cv_std_rmse": 717.4868934338697,
+        "cv_mean_r2": 0.8390489943540308,
+        "cv_std_r2": 0.04433205516285234,
+        "selected": true
+      }
+    },
+    "data_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+    "code_manifest": {
+      "src/__init__.py": "d6ca61dabbe50fad268f1f46fa40a09f8ede3688f050f6a0527e61de990810f5",
+      "src/evaluate.py": "7143ab25276c88c212545206dd97e073776bfe7e89cdfb1f127d205bc857d656",
+      "src/features.py": "7abee89c5e2882252f0243125b459b252160bf02702cdc03972e178dd5d121a6",
+      "src/models.py": "2a295271172f06cb8eeb71634e49182b35ec218fcb1ce62ecb68bf61332cfcf1",
+      "src/plot.py": "91fdc78e9e08f84a66a51b466bdcd8db987f885486148839d062f0127e5ce94c",
+      "src/prepare.py": "b62bc9f5b6749511cee0d252bc6b630dd845fd077ca4d84fb11f42033fd08cd4",
+      "src/run.py": "1498129813277430e6def06ec8933144a42d549760ef9f979b90f323ed79661a"
+    },
+    "test_metrics_viewed": false,
+    "next_stage": "features"
+  },
+  "features": {
+    "stage": "features",
+    "status": "complete",
+    "started_at": "2026-11-05T17:45:16.484084+08:00",
+    "finished_at": "2026-11-05T17:45:18.072222+08:00",
+    "run_id": "20261105T174516_efa7169b",
+    "result": {
+      "fixed_alpha": 0.1,
+      "completed": [
+        "F0",
+        "F1",
+        "F2"
+      ]
+    },
+    "data_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+    "code_manifest": {
+      "src/__init__.py": "d6ca61dabbe50fad268f1f46fa40a09f8ede3688f050f6a0527e61de990810f5",
+      "src/evaluate.py": "7143ab25276c88c212545206dd97e073776bfe7e89cdfb1f127d205bc857d656",
+      "src/features.py": "7abee89c5e2882252f0243125b459b252160bf02702cdc03972e178dd5d121a6",
+      "src/models.py": "2a295271172f06cb8eeb71634e49182b35ec218fcb1ce62ecb68bf61332cfcf1",
+      "src/plot.py": "91fdc78e9e08f84a66a51b466bdcd8db987f885486148839d062f0127e5ce94c",
+      "src/prepare.py": "b62bc9f5b6749511cee0d252bc6b630dd845fd077ca4d84fb11f42033fd08cd4",
+      "src/run.py": "1498129813277430e6def06ec8933144a42d549760ef9f979b90f323ed79661a"
+    },
+    "test_metrics_viewed": false,
+    "next_stage": "diagnose"
+  },
+  "diagnose": {
+    "stage": "diagnose",
+    "status": "complete",
+    "started_at": "2026-11-05T17:45:20.327278+08:00",
+    "finished_at": "2026-11-05T17:45:20.400104+08:00",
+    "run_id": "20261105T174520_d97442ac",
+    "result": [
+      {
+        "experiment_id": "M1",
+        "n": 1069,
+        "oof_rmse": 6328.126048921227,
+        "negative_predictions": 17
+      },
+      {
+        "experiment_id": "M3",
+        "n": 1069,
+        "oof_rmse": 5133.057410077157,
+        "negative_predictions": 0
+      }
+    ],
+    "data_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+    "code_manifest": {
+      "src/__init__.py": "d6ca61dabbe50fad268f1f46fa40a09f8ede3688f050f6a0527e61de990810f5",
+      "src/evaluate.py": "7143ab25276c88c212545206dd97e073776bfe7e89cdfb1f127d205bc857d656",
+      "src/features.py": "7abee89c5e2882252f0243125b459b252160bf02702cdc03972e178dd5d121a6",
+      "src/models.py": "2a295271172f06cb8eeb71634e49182b35ec218fcb1ce62ecb68bf61332cfcf1",
+      "src/plot.py": "91fdc78e9e08f84a66a51b466bdcd8db987f885486148839d062f0127e5ce94c",
+      "src/prepare.py": "b62bc9f5b6749511cee0d252bc6b630dd845fd077ca4d84fb11f42033fd08cd4",
+      "src/run.py": "1498129813277430e6def06ec8933144a42d549760ef9f979b90f323ed79661a"
+    },
+    "test_metrics_viewed": false,
+    "next_stage": "freeze"
+  },
+  "freeze": {
+    "stage": "freeze",
+    "status": "complete",
+    "started_at": "2026-11-05T17:46:25.764199+08:00",
+    "finished_at": "2026-11-05T17:46:25.776687+08:00",
+    "run_id": "20261105T174625_1e4f1cab",
+    "result": {
+      "recommended_model": "M3T",
+      "cv_mean_rmse": 4761.030037919429
+    },
+    "data_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+    "code_manifest": {
+      "src/__init__.py": "d6ca61dabbe50fad268f1f46fa40a09f8ede3688f050f6a0527e61de990810f5",
+      "src/evaluate.py": "7143ab25276c88c212545206dd97e073776bfe7e89cdfb1f127d205bc857d656",
+      "src/features.py": "7abee89c5e2882252f0243125b459b252160bf02702cdc03972e178dd5d121a6",
+      "src/models.py": "2a295271172f06cb8eeb71634e49182b35ec218fcb1ce62ecb68bf61332cfcf1",
+      "src/plot.py": "91fdc78e9e08f84a66a51b466bdcd8db987f885486148839d062f0127e5ce94c",
+      "src/prepare.py": "b62bc9f5b6749511cee0d252bc6b630dd845fd077ca4d84fb11f42033fd08cd4",
+      "src/run.py": "1498129813277430e6def06ec8933144a42d549760ef9f979b90f323ed79661a"
+    },
+    "test_metrics_viewed": false,
+    "next_stage": "test"
+  },
+  "test": {
+    "stage": "test",
+    "status": "complete",
+    "started_at": "2026-11-05T17:46:28.043373+08:00",
+    "finished_at": "2026-11-05T17:46:28.652237+08:00",
+    "run_id": "20261105T174627_803763f4",
+    "result": [
+      {
+        "experiment_id": "M0",
+        "canonical_model": "M0",
+        "n": 268,
+        "MAE": 9080.773325159313,
+        "RMSE": 12012.591610232901,
+        "R2": -0.0010185684988295307,
+        "fit_seconds": 0.034996300004422665,
+        "predict_seconds": 0.002336400095373392,
+        "negative_predictions": 0
+      },
+      {
+        "experiment_id": "M1",
+        "canonical_model": "M1",
+        "n": 268,
+        "MAE": 3592.7926409867405,
+        "RMSE": 5086.879920061922,
+        "R2": 0.8204970129593311,
+        "fit_seconds": 0.006250699982047081,
+        "predict_seconds": 0.004203799646347761,
+        "negative_predictions": 3
+      },
+      {
+        "experiment_id": "M2",
+        "canonical_model": "M2",
+        "n": 268,
+        "MAE": 3602.794107022094,
+        "RMSE": 5089.117711083972,
+        "R2": 0.8203390463732264,
+        "fit_seconds": 0.005820100195705891,
+        "predict_seconds": 0.0021325000561773777,
+        "negative_predictions": 3
+      },
+      {
+        "experiment_id": "M3",
+        "canonical_model": "M3",
+        "n": 268,
+        "MAE": 2522.6223012924147,
+        "RMSE": 4059.96426699661,
+        "R2": 0.8856560658447988,
+        "fit_seconds": 0.15835769986733794,
+        "predict_seconds": 0.02523940009996295,
+        "negative_predictions": 0
+      },
+      {
+        "experiment_id": "M2T",
+        "canonical_model": "M2T",
+        "n": 268,
+        "MAE": 3593.791140376564,
+        "RMSE": 5087.076572841416,
+        "R2": 0.8204831339434284,
+        "fit_seconds": 0.005107100121676922,
+        "predict_seconds": 0.002253000158816576,
+        "negative_predictions": 3
+      },
+      {
+        "experiment_id": "M3T",
+        "canonical_model": "M3T",
+        "n": 268,
+        "MAE": 2142.1727196602155,
+        "RMSE": 3398.0077174433204,
+        "R2": 0.9199027823983686,
+        "fit_seconds": 0.12472070008516312,
+        "predict_seconds": 0.025359000079333782,
+        "negative_predictions": 0
+      },
+      {
+        "experiment_id": "F1",
+        "canonical_model": "F1",
+        "n": 268,
+        "MAE": 3613.0747397776345,
+        "RMSE": 5044.25809174436,
+        "R2": 0.8234924418563331,
+        "fit_seconds": 0.005380099639296532,
+        "predict_seconds": 0.0023831999860703945,
+        "negative_predictions": 2
+      },
+      {
+        "experiment_id": "F2",
+        "canonical_model": "F2",
+        "n": 268,
+        "MAE": 2581.912919577575,
+        "RMSE": 3875.456649512618,
+        "R2": 0.895812774079703,
+        "fit_seconds": 0.005493699572980404,
+        "predict_seconds": 0.002656899858266115,
+        "negative_predictions": 0
+      }
+    ],
+    "data_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+    "code_manifest": {
+      "src/__init__.py": "d6ca61dabbe50fad268f1f46fa40a09f8ede3688f050f6a0527e61de990810f5",
+      "src/evaluate.py": "7143ab25276c88c212545206dd97e073776bfe7e89cdfb1f127d205bc857d656",
+      "src/features.py": "7abee89c5e2882252f0243125b459b252160bf02702cdc03972e178dd5d121a6",
+      "src/models.py": "2a295271172f06cb8eeb71634e49182b35ec218fcb1ce62ecb68bf61332cfcf1",
+      "src/plot.py": "91fdc78e9e08f84a66a51b466bdcd8db987f885486148839d062f0127e5ce94c",
+      "src/prepare.py": "b62bc9f5b6749511cee0d252bc6b630dd845fd077ca4d84fb11f42033fd08cd4",
+      "src/run.py": "1498129813277430e6def06ec8933144a42d549760ef9f979b90f323ed79661a"
+    },
+    "test_metrics_viewed": true,
+    "next_stage": "plots"
+  },
+  "plots": {
+    "stage": "plots",
+    "status": "complete",
+    "started_at": "2026-11-05T17:46:30.850508+08:00",
+    "finished_at": "2026-11-05T17:46:36.303075+08:00",
+    "run_id": "20261105T174630_0296c0d5",
+    "result": [
+      "01_development.png",
+      "02_model_comparison.png",
+      "03_predictions.png",
+      "04_residuals.png",
+      "05_tuning.png",
+      "06_features_groups.png"
+    ],
+    "data_sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+    "code_manifest": {
+      "src/__init__.py": "d6ca61dabbe50fad268f1f46fa40a09f8ede3688f050f6a0527e61de990810f5",
+      "src/evaluate.py": "7143ab25276c88c212545206dd97e073776bfe7e89cdfb1f127d205bc857d656",
+      "src/features.py": "7abee89c5e2882252f0243125b459b252160bf02702cdc03972e178dd5d121a6",
+      "src/models.py": "2a295271172f06cb8eeb71634e49182b35ec218fcb1ce62ecb68bf61332cfcf1",
+      "src/plot.py": "91fdc78e9e08f84a66a51b466bdcd8db987f885486148839d062f0127e5ce94c",
+      "src/prepare.py": "b62bc9f5b6749511cee0d252bc6b630dd845fd077ca4d84fb11f42033fd08cd4",
+      "src/run.py": "1498129813277430e6def06ec8933144a42d549760ef9f979b90f323ed79661a"
+    },
+    "test_metrics_viewed": true,
+    "next_stage": "report_and_verify"
+  }
+}
